@@ -1,0 +1,12 @@
+title: Ugur Elveren
+email: elveren.ugur@gmail.com
+description: My simple blog
+baseurl: ''
+url: ''
+twitter_username: ''
+github_username: ugurelveren
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-admin

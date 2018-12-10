@@ -2,9 +2,11 @@ title: Ugur Elveren
 email: elveren.ugur@gmail.com
 description: My simple blog
 baseurl: ''
-url: ''
-twitter_username: ''
+url: 'http://www.ugurelveren.com'
 github_username: ugurelveren
+instagram_username: ugur.elveren
+linkedin_username: ugur-elveren
+rss: feed.xml
 markdown: kramdown
 theme: minima
 plugins:

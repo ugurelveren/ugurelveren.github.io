@@ -94,8 +94,10 @@ author:
       icon: fab fa-fw fa-facebook-square
     - label: GitHub
       icon: fab fa-fw fa-github
+      url: "https://github.com/ugurelveren"
     - label: Instagram
       icon: fab fa-fw fa-instagram
+      url: "https://www.instagram.com/ugur.elveren/"
 footer:
   links:
     - label: Twitter
@@ -104,12 +106,14 @@ footer:
       icon: fab fa-fw fa-facebook-square
     - label: GitHub
       icon: fab fa-fw fa-github
+      url: "https://github.com/ugurelveren"
     - label: GitLab
       icon: fab fa-fw fa-gitlab
     - label: Bitbucket
       icon: fab fa-fw fa-bitbucket
     - label: Instagram
       icon: fab fa-fw fa-instagram
+      url: "https://www.instagram.com/ugur.elveren/"
 include:
   - .htaccess
   - _pages

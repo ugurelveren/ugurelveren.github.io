@@ -8,8 +8,6 @@ share: true
 related: true
 ---
 
-What is Jekyll.
-
 Here we go. First shot.
 
 After i decided to create my personal blog , i started to think about that what should i use and what do i need? 

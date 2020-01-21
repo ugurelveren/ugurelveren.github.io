@@ -12,7 +12,7 @@ Here we go. First shot.
 
 After i decided to create my personal blog , i started to think about that what should i use and what do i need? 
 
-First thing, in my mind. It should be simple. It doesn't need to be one of the fancy Cms solutions. I don't need too many plugins for running the blog. I just want to share my post. 
+First thing  on my mind that it should be simple. It doesn't need to be one of the fancy Cms solutions. I don't need too many plugins for running the blog. I just want to share my post. 
 And then i realized that i don't need database or all the other stuff. I just want to share text and photo. 
 
 I started my Jekyll adventure with this idea. It shouldn't be fancy.
@@ -27,7 +27,7 @@ Static web pages are simple than dynamic rival. The web site has series of html 
 
 Jekyll is a little bit different. We can say, Jekyll stands between dynamic and static web pages.
 
-Technically, Jekyll is not static web site. It is parsing engine. It is building static websites from dynamic components like templates.
+Technically, Jekyll is not static web site. It is a parsing engine. It is building static websites from dynamic components like templates.
 First Jekyll parse a your markdown content and it will generate some results like html files. 
 
 What is the benefits of Jekyll.

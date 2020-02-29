@@ -98,7 +98,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (10.5.0)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -136,7 +136,7 @@ DEPENDENCIES
   bundler
   jekyll-admin
   minimal-mistakes-jekyll!
-  rake (~> 10.0)
+  rake (~> 12.3)
 
 BUNDLED WITH
    1.16.6

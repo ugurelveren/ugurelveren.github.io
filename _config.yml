@@ -3,7 +3,7 @@ locale: en-US
 title: Ugur Elveren
 title_separator: '-'
 name: null
-description: 'Ugur''s blog - for Developers , Architects  & Consultants'
+description: 'Another boring blog!'
 url: null
 baseurl: null
 repository: null
@@ -79,9 +79,9 @@ analytics:
     anonymize_ip: null
 author:
   name: null
-  avatar: null
-  bio: 'Ugur''s blog - for Developers , Architects  & Consultants'
-  location: 'Long Beach, CA.'
+  avatar: "/assets/images/pf.jpg"
+  bio: 'Another boring blog!'
+  location: 'Huntington Beach, CA.'
   email: null
   links:
     - label: Email
@@ -98,6 +98,9 @@ author:
     - label: Instagram
       icon: fab fa-fw fa-instagram
       url: "https://www.instagram.com/ugur.elveren/"
+    - label: Linkedin
+      icon: fab fa-fw fa-linkedin
+      url: "https://www.linkedin.com/in/ugur-elveren/"
 footer:
   links:
     - label: Twitter
@@ -113,7 +116,7 @@ footer:
       icon: fab fa-fw fa-bitbucket
     - label: Instagram
       icon: fab fa-fw fa-instagram
-      url: "https://www.instagram.com/ugur.elveren/"
+      url: ""
 include:
   - .htaccess
   - _pages

@@ -1,5 +1,5 @@
 ---
-title: Is a MacBook pro is good choice for .net developers
+title: Is a MacBook pro good choice for .net developers
 layout: single
 author_profile: true
 read_time: true

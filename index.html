@@ -1,4 +1,35 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ugurelveren.com</title>
+    <meta name="description" content="Welcome ugurelveren.com">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+
+
+</head>
+<body>
+    <script>
+       $('body').terminal(
+        {
+            cat: function(width, height) {
+                return $('<img src="https://placekitten.com/' +
+                        width + '/' + height + '">');
+            },
+            blog: function() {
+                window.open("https://blog.ugurelveren.com", "_blank");
+            },
+            help: function() {
+                this.echo('blog        -  redirect to https://blog.ugurelveren.com');
+                this.echo('help        -  For a list of available commands');
+            }
+        }, 
+        {
+            greetings: 'Welcome ugurelveren.com. Version(0.0.1) \nFor a list of available commands, type `help`.'
+        });
+    </script>
+</body>
+</html>

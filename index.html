@@ -9,9 +9,29 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
 
-
 </head>
 <body>
+    <style>
+        .terminal {
+            --color: rgb(0, 255, 0);
+            --background: black;
+            --link-color: rgb(0, 0, 255);
+            --size: 1.25;
+        }
+    </style>
+    <template id="asciiart">         
+                             _                                               
+                            | |                                              
+  _   _  __ _ _   _ _ __ ___| __   _____ _ __ ___ _ __    ___ ___  _ __ ___  
+ | | | |/ _` | | | | '__/ _ | \ \ / / _ | '__/ _ | '_ \  / __/ _ \| '_ ` _ \ 
+ | |_| | (_| | |_| | | |  __| |\ V |  __| | |  __| | | || (_| (_) | | | | | |
+  \__,_|\__, |\__,_|_|  \___|_| \_/ \___|_|  \___|_| |_(_\___\___/|_| |_| |_|       Version(0.0.2)
+         __/ |                                                               
+        |___/                                                                
+                                                                                             
+
+For a list of available commands, type `help`.'
+    </template>
     <script>
        $('body').terminal(
         {
@@ -28,7 +48,7 @@
             }
         }, 
         {
-            greetings: 'Welcome ugurelveren.com. Version(0.0.1) \nFor a list of available commands, type `help`.'
+            greetings: asciiart.innerHTML
         });
     </script>
 </body>

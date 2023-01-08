@@ -15,7 +15,7 @@
         .terminal {
             --color: rgb(0, 255, 0);
             --background: black;
-            --link-color: rgb(0, 0, 255);
+            --link-color: rgb(255, 0, 0);
             --size: 1.25;
         }
     </style>
@@ -25,12 +25,12 @@
   _   _  __ _ _   _ _ __ ___| __   _____ _ __ ___ _ __    ___ ___  _ __ ___  
  | | | |/ _` | | | | '__/ _ | \ \ / / _ | '__/ _ | '_ \  / __/ _ \| '_ ` _ \ 
  | |_| | (_| | |_| | | |  __| |\ V |  __| | |  __| | | || (_| (_) | | | | | |
-  \__,_|\__, |\__,_|_|  \___|_| \_/ \___|_|  \___|_| |_(_\___\___/|_| |_| |_|       Version(0.0.2)
+  \__,_|\__, |\__,_|_|  \___|_| \_/ \___|_|  \___|_| |_(_\___\___/|_| |_| |_|       Version(0.1.2)
          __/ |                                                               
         |___/                                                                
                                                                                              
 
-For a list of available commands, type `help`.'
+For a list of available commands, type `help`.
     </template>
     <script>
        $('body').terminal(
@@ -42,9 +42,28 @@ For a list of available commands, type `help`.'
             blog: function() {
                 window.open("https://blog.ugurelveren.com", "_blank");
             },
+            linkedin: function() {
+                window.open("https://www.linkedin.com/in/ugur-elveren/", "_blank");
+            },
+            mastodon: function() {
+                window.open("https://hachyderm.io/@ugur", "_blank");
+            },
+            instagram: function() {
+                window.open("https://www.instagram.com/ugur.elveren", "_blank");
+            },
             help: function() {
+                this.echo('about       -  about me');
                 this.echo('blog        -  redirect to https://blog.ugurelveren.com');
+                this.echo('linkedin    -  redirect to https://www.linkedin.com/in/ugur-elveren/');
+                this.echo('mastodon    -  redirect to https://hachyderm.io/@ugur');
+                this.echo('instagram   -  redirect to https://www.instagram.com/ugur.elveren/');
                 this.echo('help        -  For a list of available commands');
+            },
+            about: function() {
+                this.echo('Hello there,');
+                this.echo('My name is Ugur Elveren. I am a cloud architect from Los Angeles, Ca. ');
+                var moreInfo = $('<div>If you want more info about me, you can visit my `<a href="https://www.linkedin.com/in/ugur-elveren/" style="color: rgb(255,0,0)" target="_blank">linkedin</a>` profile or check my `resume`</div>');
+                this.echo(moreInfo);
             }
         }, 
         {

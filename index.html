@@ -40,8 +40,8 @@
          function aboutMe(term)
          {
             term.echo('Hello there,');
-            term.echo('My name is Ugur Elveren. I am a cloud architect from Los Angeles, Ca. ');
-            var moreInfo = $('<div>If you want more info about me, you can visit my `<a href="https://www.linkedin.com/in/ugur-elveren/" style="color: rgb(255,0,0)" target="_blank">linkedin</a>` profile or check my `<a href="resume.pdf" style="color: rgb(255,0,0)" target="_blank">resume</a>`</div>');
+            term.echo('My name is Ugur Elveren. I am based in San Diego, CA. ');
+            var moreInfo = $('<div>If you want more info about me, you can visit my `<a href="https://www.linkedin.com/in/ugur-elveren/" style="color: rgb(255,0,0)" target="_blank">linkedin</a>` profile.</div>');
             term.echo(moreInfo);
          }
        $('body').terminal(
@@ -62,9 +62,6 @@
             github: function() {
                 window.open("https://github.com/ugurelveren", "_blank");
             },
-            resume: function() {
-                window.open("resume", "_blank");
-            },
             photos: function() {
                 window.open("https://photos.ugurelveren.com", "_blank");
             },
@@ -74,8 +71,7 @@
                 this.echo('linkedin    -  redirect to https://www.linkedin.com/in/ugur-elveren/');
                 this.echo('mastodon    -  redirect to https://hachyderm.io/@ugur');
                 this.echo('github      -  redirect to https://github.com/ugurelveren');
-                this.echo('photos      -  redirect to http://photos.ugurelveren.com');
-                this.echo('resume      -  Open latest version of the resume');
+                this.echo('photos      -  redirect to https://photos.ugurelveren.com');
                 this.echo('help        -  List available commands');
             },
             about: function() {

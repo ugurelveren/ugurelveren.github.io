@@ -6,21 +6,21 @@ This repository hosts the source code for **ugurelveren.com**, a personal websit
 ## Features
 - **Command-line UI:** Explore the site using terminal commands.
 - **ASCII Art Welcome:** Custom greeting banner on load.
-- **Command-Based Navigation:** Access social profiles, blog, resume, and more.
+- **Command-Based Navigation:** Access social profiles, blog, and more.
   
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ugurelveren/ugurelveren.com.git
-   cd ugurelveren.com
+   git clone https://github.com/ugurelveren/ugurelveren.github.io.git
+   cd ugurelveren.github.io
    ```
 2. Open `index.html` in your browser.
 
 ## Available Commands
 - `about` – Info about Ugur Elveren  
 - `blog` – Opens Ugur’s blog  
-- `linkedin`, `mastodon`, `instagram`, `github` – Redirects to social profiles  
-- `resume`, `photos` – Opens resume or photo gallery  
+- `linkedin`, `mastodon`, `github` – Redirects to social profiles  
+- `photos` – Opens photo gallery  
 - `help` – Lists all commands  
 
 ## Dependencies
